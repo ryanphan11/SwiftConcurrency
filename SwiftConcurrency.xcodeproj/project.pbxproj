@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		02DB522A2DFF58F2006ABFD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DB52232DFF58F2006ABFD8 /* Preview Assets.xcassets */; };
+		02DB522B2DFF58F2006ABFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DB52252DFF58F2006ABFD8 /* Assets.xcassets */; };
+		02DB522C2DFF58F2006ABFD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DB52262DFF58F2006ABFD8 /* ContentView.swift */; };
+		02DB522D2DFF58F2006ABFD8 /* SendableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DB52272DFF58F2006ABFD8 /* SendableBootCamp.swift */; };
+		02DB522E2DFF58F2006ABFD8 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DB52282DFF58F2006ABFD8 /* SwiftConcurrencyApp.swift */; };
+		02DB52302DFF5A9C006ABFD8 /* ActorBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DB522F2DFF5A9C006ABFD8 /* ActorBootCamp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		02DB52102DFF52D1006ABFD8 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DB52232DFF58F2006ABFD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02DB52252DFF58F2006ABFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02DB52262DFF58F2006ABFD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02DB52272DFF58F2006ABFD8 /* SendableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootCamp.swift; sourceTree = "<group>"; };
+		02DB52282DFF58F2006ABFD8 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
+		02DB522F2DFF5A9C006ABFD8 /* ActorBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		02DB52122DFF52D1006ABFD8 /* SwiftConcurrency */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftConcurrency;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		02DB520D2DFF52D1006ABFD8 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		02DB52072DFF52D1006ABFD8 = {
 			isa = PBXGroup;
 			children = (
-				02DB52122DFF52D1006ABFD8 /* SwiftConcurrency */,
+				02DB52292DFF58F2006ABFD8 /* SwiftConcurrency */,
 				02DB52112DFF52D1006ABFD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				02DB52102DFF52D1006ABFD8 /* SwiftConcurrency.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		02DB52242DFF58F2006ABFD8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02DB52232DFF58F2006ABFD8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02DB52292DFF58F2006ABFD8 /* SwiftConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				02DB522F2DFF5A9C006ABFD8 /* ActorBootCamp.swift */,
+				02DB52262DFF58F2006ABFD8 /* ContentView.swift */,
+				02DB52272DFF58F2006ABFD8 /* SendableBootCamp.swift */,
+				02DB52282DFF58F2006ABFD8 /* SwiftConcurrencyApp.swift */,
+				02DB52252DFF58F2006ABFD8 /* Assets.xcassets */,
+				02DB52242DFF58F2006ABFD8 /* Preview Content */,
+			);
+			path = SwiftConcurrency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				02DB52122DFF52D1006ABFD8 /* SwiftConcurrency */,
 			);
 			name = SwiftConcurrency;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DB522A2DFF58F2006ABFD8 /* Preview Assets.xcassets in Resources */,
+				02DB522B2DFF58F2006ABFD8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DB522C2DFF58F2006ABFD8 /* ContentView.swift in Sources */,
+				02DB522D2DFF58F2006ABFD8 /* SendableBootCamp.swift in Sources */,
+				02DB522E2DFF58F2006ABFD8 /* SwiftConcurrencyApp.swift in Sources */,
+				02DB52302DFF5A9C006ABFD8 /* ActorBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
